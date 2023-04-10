@@ -1,0 +1,29 @@
+{
+  "name": "log-shade",
+  "version": "1.0.0",
+  "description": "A library to apply shade and some other modification on console logs.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syed-basit-ali/log-shade"
+  },
+  "keywords": [
+    "console log shade",
+    "color logs",
+    "console modifications"
+  ],
+  "author": "Syed Basit <basit.shah94@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/syed-basit-ali/log-shade#readme",
+  "dependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
